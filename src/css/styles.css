@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 1040px;
+    margin: auto;
+}
+
+header {
+    background-color: mediumblue;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.title {
+    font-size: 26px;
+}
+
+section {
+    color: white;
+    padding: 20px;
+    background-image: url(/src/imagens/background.jpg);
+    background-size: cover;
+    overflow: auto;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.form-container {
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+.form-container h2 {
+    font-size: 16px;
+    color: black;
+}
+
+.form-container p {
+    margin: 15px 0;
+    color: black;
+}
+
+input,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: mediumblue;
+    font-weight: bold;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+footer {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture {
+    width: 160px;
+}
+
+.description {
+    display: inline-block;
+    text-align: left;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p,
+.description h3 {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+}
